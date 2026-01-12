@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  height: 100vh;
+  background-image: url("background\ image.jpeg");
+  background-size: cover;
+  background-position: center;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  background: rgba(255, 255, 255, 0.85);
+  padding: 30px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+#count {
+  font-size: 50px;
+  margin: 20px 0;
+}
+
+button {
+  padding: 10px 18px;
+  font-size: 18px;
+  margin: 5px;
+  cursor: pointer;
+}
